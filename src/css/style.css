@@ -13,8 +13,13 @@ body {
 
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: linear-gradient(135deg, #f9fafb 100%, #d2d6db 100%);
+  padding-top: 200px;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(249, 250, 251),
+    rgb(210, 214, 219)
+  );
 }
 
 * {
@@ -40,6 +45,7 @@ body {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: auto;
   border-radius: 0.5rem;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
   width: 340px;
@@ -57,7 +63,7 @@ body {
 }
 
 .user-info {
-  margin-left: 4px;
+  margin-left: 1rem;
 }
 
 .header div {
