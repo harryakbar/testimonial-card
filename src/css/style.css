@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-color: linear-gradient(135deg, #f9fafb 100%, #d2d6db 100%);
 }
 
 * {
